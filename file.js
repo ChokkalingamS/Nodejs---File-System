@@ -8,7 +8,7 @@ const app = express();
 const PORT = process.env.PORT;
 
 // Homepage
-app.get("/homepage", (request, response) => {
+app.get("/", (request, response) => {
   response.send({ msg: "Nodejs File System" });
 });
 
